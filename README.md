@@ -1,6 +1,6 @@
 ![image](images/microchip.jpg) 
 
-## %repoDescritpion%
+## DSPIC33C DMA ADC TO UART
 
 Board Image if any.
 
