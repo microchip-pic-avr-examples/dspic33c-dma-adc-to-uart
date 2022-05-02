@@ -39,9 +39,9 @@ from ADC buffer to UART transmit buffer. The result can be verified in MPLAB® D
 
 **Data Visualizer Setup**
 
-- To install Data Visualizer Plugin - Go to Tools, Click on Plugins, Download and install Data Visualizer Plugin
+1. To install Data Visualizer Plugin - Go to Tools, Click on Plugins, Download and install Data Visualizer Plugin
 ![](images/DV-install.png)
-- Select MPLAB Data Visualizer in Available Plugins and install
+2. Select MPLAB Data Visualizer in Available Plugins and install
 ![](images/Install%20data%20visualizer.png)
 
 ## Operation
