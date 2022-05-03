@@ -37,8 +37,7 @@
 	  "peripherals":[
          "ADC",
 		 "DMA",
-		 "UART",
-		 "Pulse Output"
+		 "UART"
       ],
       "keywords":[
          "ADC",
