@@ -40,7 +40,7 @@
 #include "../pins.h"
 #include "../../adc/adc1.h"
 #include "../../dma/dma.h"
-#include "../../pulse_output/sccp1.h"
+#include "../../timer/tmr1.h"
 #include "../../uart/uart1.h"
 
 
@@ -51,7 +51,7 @@ void SYSTEM_Initialize(void)
     ADC1_Initialize();
     DMA_Initialize();
     DMT_Initialize();
-    SCCP1_PulseOutput_Initialize();
+    TMR1_Initialize();
     UART1_Initialize();
     INTERRUPT_Initialize();
     INTERRUPT_GlobalEnable();

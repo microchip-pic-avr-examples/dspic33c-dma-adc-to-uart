@@ -284,8 +284,8 @@ void ADC1_Initialize (void)
     ADTRIG4H = 0x0;
     //TRGSRC20 None; TRGSRC21 None; 
     ADTRIG5L = 0x0;
-    //TRGSRC22 None; TRGSRC23 SCCP1; 
-    ADTRIG5H = 0x1400;
+    //TRGSRC22 None; TRGSRC23 Common Software Trigger; 
+    ADTRIG5H = 0x100;
     //TRGSRC24 None; TRGSRC25 None; 
     ADTRIG6L = 0x0;
 }

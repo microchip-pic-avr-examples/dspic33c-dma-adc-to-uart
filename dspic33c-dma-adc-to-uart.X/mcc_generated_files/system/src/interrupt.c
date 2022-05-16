@@ -53,9 +53,9 @@ void INTERRUPT_Initialize(void)
     // Priority: 1
     IPC19bits.CNEIP = 1;
     
-    // CCP1: CCP1 Capture/Compare Event
+    // T1: Timer 1
     // Priority: 1
-    IPC1bits.CCP1IP = 1;
+    IPC0bits.T1IP = 1;
     
     // U1EVT: UART1 Event
     // Priority: 1
@@ -81,7 +81,7 @@ void INTERRUPT_Deinitialize(void)
     IPC28bits.ADCAN23IP = 4;
     IPC11bits.DMTIP = 4;
     IPC19bits.CNEIP = 4;
-    IPC1bits.CCP1IP = 4;
+    IPC0bits.T1IP = 4;
     IPC47bits.U1EVTIP = 4;
     IPC12bits.U1EIP = 4;
     IPC3bits.U1TXIP = 4;

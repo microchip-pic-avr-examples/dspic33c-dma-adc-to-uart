@@ -18,12 +18,6 @@
           <itemPath>mcc_generated_files/dma/dma_types.h</itemPath>
           <itemPath>mcc_generated_files/dma/dma_interface.h</itemPath>
         </logicalFolder>
-        <logicalFolder name="pulse_output"
-                       displayName="pulse_output"
-                       projectFiles="true">
-          <itemPath>mcc_generated_files/pulse_output/pulseoutput_interface.h</itemPath>
-          <itemPath>mcc_generated_files/pulse_output/sccp1.h</itemPath>
-        </logicalFolder>
         <logicalFolder name="system" displayName="system" projectFiles="true">
           <itemPath>mcc_generated_files/system/dmt.h</itemPath>
           <itemPath>mcc_generated_files/system/clock.h</itemPath>
@@ -35,6 +29,10 @@
           <itemPath>mcc_generated_files/system/system.h</itemPath>
           <itemPath>mcc_generated_files/system/watchdog.h</itemPath>
           <itemPath>mcc_generated_files/system/interrupt.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="timer" displayName="timer" projectFiles="true">
+          <itemPath>mcc_generated_files/timer/tmr1.h</itemPath>
+          <itemPath>mcc_generated_files/timer/timer_interface.h</itemPath>
         </logicalFolder>
         <logicalFolder name="uart" displayName="uart" projectFiles="true">
           <itemPath>mcc_generated_files/uart/uart1.h</itemPath>
@@ -62,13 +60,6 @@
             <itemPath>mcc_generated_files/dma/src/dma.c</itemPath>
           </logicalFolder>
         </logicalFolder>
-        <logicalFolder name="pulse_output"
-                       displayName="pulse_output"
-                       projectFiles="true">
-          <logicalFolder name="src" displayName="src" projectFiles="true">
-            <itemPath>mcc_generated_files/pulse_output/src/sccp1.c</itemPath>
-          </logicalFolder>
-        </logicalFolder>
         <logicalFolder name="system" displayName="system" projectFiles="true">
           <logicalFolder name="src" displayName="src" projectFiles="true">
             <itemPath>mcc_generated_files/system/src/dmt.c</itemPath>
@@ -80,6 +71,11 @@
             <itemPath>mcc_generated_files/system/src/traps.c</itemPath>
             <itemPath>mcc_generated_files/system/src/reset.c</itemPath>
             <itemPath>mcc_generated_files/system/src/dmt_asm.s</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="timer" displayName="timer" projectFiles="true">
+          <logicalFolder name="src" displayName="src" projectFiles="true">
+            <itemPath>mcc_generated_files/timer/src/tmr1.c</itemPath>
           </logicalFolder>
         </logicalFolder>
         <logicalFolder name="uart" displayName="uart" projectFiles="true">

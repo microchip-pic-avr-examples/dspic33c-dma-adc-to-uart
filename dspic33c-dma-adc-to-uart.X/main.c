@@ -23,6 +23,11 @@
 #include "mcc_generated_files/system/pins.h"
 #include "mcc_generated_files/dma/dma.h"
 
+//Timer Callback routine for every instance
+void TMR1_TimeoutCallback( void )
+{ 
+    ADC1_SoftwareTriggerEnable();
+} 
 /*
     Main application
 */
@@ -32,6 +37,11 @@ int main(void)
     /*Initializes the DMA, UART, Timer, ADC*/
     SYSTEM_Initialize();
 
+    DMA_Driver.ChannelDisable(DMA_CHANNEL_0);
+    DMA_Driver.SourceAddressSet(DMA_CHANNEL_0,(uint16_t)&ADCBUF23);
+    DMA_Driver.DestinationAddressSet(DMA_CHANNEL_0,(uint16_t)&U1TXREG);
+    DMA_Driver.ChannelEnable(DMA_CHANNEL_0);
+    
     while(1)
     {
       

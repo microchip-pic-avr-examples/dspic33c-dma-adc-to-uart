@@ -73,10 +73,10 @@ void DMA_Initialize (void)
     DMACH0 = 0x247 & 0xFFFE; //The channel is disabled, till other settings are configured.
     // HALFIF disabled; LOWIF disabled; HALFEN disabled; DONEIF disabled; OVRUNIF disabled; CHSEL0 ADC Done AN23; HIGHIF disabled; 
     DMAINT0= 0x3F00;
-    // SADDR0 3130; 
-    DMASRC0= 0xC3A;
-    // DADDR0 584; 
-    DMADST0= 0x248;
+    // SADDR0 0; 
+    DMASRC0= 0x0;
+    // DADDR0 0; 
+    DMADST0= 0x0;
     // CNT0 2; 
     DMACNT0= 0x2;
     // Clearing Channel 0 Interrupt Flag;
