@@ -12,7 +12,7 @@ from ADC buffer to UART transmit buffer. The result can be verified in MPLAB® D
 
 ## Related Documentation
 
-dsPIC33CK256MP508 datasheet (https://www.microchip.com/dsPIC33CK256MP508) for more information or specifications
+[dsPIC33CK256MP508 datasheet](https://www.microchip.com/dsPIC33CK256MP508) for more information or specifications
 
 ## Software Used 
 
@@ -24,7 +24,7 @@ dsPIC33CK256MP508 datasheet (https://www.microchip.com/dsPIC33CK256MP508) for mo
 
 ## Hardware Used
 
-- dsPIC33CK Curiosity Board (https://www.microchip.com/dm330030)
+- [dsPIC33CK Curiosity Board](https://www.microchip.com/dm330030)
 
 ## Setup
 
