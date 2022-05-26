@@ -16,11 +16,11 @@ dsPIC33CK256MP508 datasheet (https://www.microchip.com/dsPIC33CK256MP508) for mo
 
 ## Software Used 
 
-- MPLAB® X IDE v6.00 (https://www.microchip.com/mplabx) or newer
-- MPLAB® XC16 v2.00 (https://www.microchip.com/xc16) or newer
+- [MPLAB® X IDE v6.00](https://www.microchip.com/mplabx) or newer
+- [MPLAB® XC16 v2.00](https://www.microchip.com/xc16) or newer
 - Device Family Pack: dsPIC33CK-MP_DFP v1.7.208
-- MPLAB® Code Configurator (MCC) 5.1.2 (https://www.microchip.com/mcc) or newer
-- MPLAB® Data Visualizer v1.3.1160 (https://www.microchip.com/mplabdatavisualizer) or newer
+- [MPLAB® Code Configurator (MCC) 5.1.2](https://www.microchip.com/mcc) or newer
+- [MPLAB® Data Visualizer v1.3.1160](https://www.microchip.com/mplabdatavisualizer) or newer
 
 ## Hardware Used
 
