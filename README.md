@@ -1,6 +1,6 @@
 ![image](images/microchip.jpg) 
 
-## dsPIC33C DMA ADC TO UART
+## dsPIC33C DMA ADC to UART
 
 ![Board](images/board.jpg)
 
