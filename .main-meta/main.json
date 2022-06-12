@@ -1,0 +1,48 @@
+{
+   "metaDataVersion":"1.0.0",
+   "category":"com.microchip.ide.project",
+   "content":{
+      "metaDataVersion":"1.3.0",
+      "name":"com.microchip.mplabx.project.dspic33c-dma-adc-to-uart",
+      "version":"1.0.0",
+      "displayName":"dsPIC33CK Curiosity Development Board - DMA with ADC to UART",
+      "projectName":"dspic33c-dma-adc-to-uart",
+      "shortDescription":"Demo project for data transfer from ADC to UART using DMA",
+      "ide":{
+         "name":"MPLABX",
+         "semverRange":">=5.40.0"
+      },
+      "compiler":{
+         "name":"XC16",
+         "semverRange":"^2.00.0"
+      },
+      "dfp":{
+         "name":"dsPIC33CK-MP_DFP",
+         "semverRange":">=1.7.208"
+      },
+	  "configurator": {
+         "name": "MCC",
+         "semverRange": ">=5.1.0"
+      },
+      "device":{
+         "metaDataVersion":"1.0.0",
+         "category":"com.microchip.portal.contentRef",
+         "content":{
+            "metaDataVersion":"1.0.0",
+            "category":"com.microchip.device",
+            "name":"dsPIC33CK256MP508",
+            "versionRange":"*"
+         }
+      },
+	  "peripherals":[
+         "ADC",
+		 "DMA",
+		 "UART"
+      ],
+      "keywords":[
+         "ADC",
+         "DMA",
+		 "UART"
+      ]
+   }
+}
